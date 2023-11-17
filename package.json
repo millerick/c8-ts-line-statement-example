@@ -1,0 +1,18 @@
+{
+  "name": "c8-ts-line-statement-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "c8 --reporter=json-summary --reporter=html mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "10.0.4",
+    "c8": "8.0.1",
+    "mocha": "10.2.0",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  }
+}
